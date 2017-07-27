@@ -1,0 +1,44 @@
+<html lang="en" ng-app="MaterialApp">
+  <head>
+     <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/angular_material/1.0.0/angular-material.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-animate.min.js"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-aria.min.js"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-messages.min.js"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/angular_material/1.0.0/angular-material.min.js"></script>
+    <!---Bootstrap lInks---->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+      <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+      <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+
+  </head>
+  <body >
+    <div>
+    <!--ANGULAR-->
+   <md-button class="md-raised">NG Button</md-button>
+
+     <md-input-container>
+       <label>First Name</label>
+       <input type="text" ng-model="vm.test">
+     </md-input-container>
+</div>
+
+<div>
+  <md-datepicker ng-model="vm.date" md-placeholder="Date">
+  </md-datepicker>
+</div>
+<!--Bootstrap-->
+   <div>
+     <Button class="btn btn-default">Bootstrap Button</Button>
+<div class="col-small-4">
+  <label>First Name</label>
+  <input type="form-control" type="text">
+</div>
+</div>
+    <script src="app.js"></script>
+  </body>
+</html>
